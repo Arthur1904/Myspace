@@ -7,8 +7,8 @@ function quickSort(array $arr) {
     }
 
     $first_val = $arr[0];
-    $left_arr = array();
-    $right_arr = array();
+    $left_arr = [];
+    $right_arr = [];
 
     for ($i = 1; $i < $count; $i++) {
         if ($arr[$i] <= $first_val) {
